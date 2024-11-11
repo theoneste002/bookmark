@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #fff;
+    margin-left: 1.5em;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #ddd;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 4em 1em;
+    background-color: #1aec4f;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #fff;
+    color: hsl(93, 95%, 45%);
+    padding: 0.7em 1.5em;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #ddd;
+}
+
+
+.services {
+    padding: 2em 1em;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 1em;
+}
+
+.service-item {
+    display: inline-block;
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.service-item h3 {
+    color: #007bff;
+}
+
+
+.about {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+
+.testimonials {
+    padding: 2em 1em;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 1em 0;
+    font-style: italic;
+}
+
+
+.contact {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin-top: 1em;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+button {
+    margin-top: 1em;
+    padding: 0.5em 1.5em;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+footer {
+    background: #deee4a;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
